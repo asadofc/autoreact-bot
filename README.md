@@ -54,25 +54,6 @@
 
 ---
 
-## 📦 Deployment Setup
-
-1. Add all your bot tokens to a `.env` file:
-    ```env
-    BOT_TOKENS=token1,token2,token3,...
-    CHANNEL_URL=https://t.me/yourchannel
-    GROUP_URL=https://t.me/yourgroup
-    ```
-
-2. Deploy with Python 3.10+:
-    ```bash
-    pip install -r requirements.txt
-    python bot.py
-    ```
-
-3. Render deployment needs an HTTP server — handled in `DummyHandler`
-
----
-
 ## 📜 Example Command: `/start`
 
 > Welcomes the user with info and buttons:
